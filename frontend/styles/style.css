@@ -88,6 +88,19 @@ body header .brand .contact {
   text-decoration: none;
 }
 
+body header .brand .skills,
+body header .brand .about,
+body header .brand .contact {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+body header .brand .skills:hover,
+body header .brand .about:hover,
+body header .brand .contact:hover {
+  text-shadow: 0 0 20px #919191;
+}
+
 body .section {
   margin-top: 358px;
   text-align: center;
@@ -115,7 +128,28 @@ body .section p {
   color: #202020;
 }
 
-body .section-2 {
+body .section-skills {
+  width: 400px;
+  margin-top: 468px;
+}
+
+body .section-skills h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #202020;
+}
+
+body .section-skills ul .text-items {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #202020;
+}
+
+body .section-contact {
   margin-top: 568px;
   text-align: center;
   -webkit-box-pack: center;
@@ -126,7 +160,7 @@ body .section-2 {
           align-items: center;
 }
 
-body .section-2 h1 {
+body .section-contact h1 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -134,24 +168,24 @@ body .section-2 h1 {
   color: #202020;
 }
 
-body .section-2 .icon {
+body .section-contact .icon {
   margin-top: 100px;
 }
 
-body .section-2 .icon .ic-1,
-body .section-2 .icon .ic-2,
-body .section-2 .icon .ic-3,
-body .section-2 .icon .ic-4,
-body .section-2 .icon .ic-5 {
+body .section-contact .icon .ic-1,
+body .section-contact .icon .ic-2,
+body .section-contact .icon .ic-3,
+body .section-contact .icon .ic-4,
+body .section-contact .icon .ic-5 {
   -webkit-transition: 2s;
   transition: 2s;
 }
 
-body .section-2 .icon .ic-1:hover,
-body .section-2 .icon .ic-2:hover,
-body .section-2 .icon .ic-3:hover,
-body .section-2 .icon .ic-4:hover,
-body .section-2 .icon .ic-5:hover {
+body .section-contact .icon .ic-1:hover,
+body .section-contact .icon .ic-2:hover,
+body .section-contact .icon .ic-3:hover,
+body .section-contact .icon .ic-4:hover,
+body .section-contact .icon .ic-5:hover {
   width: 45px;
 }
 
