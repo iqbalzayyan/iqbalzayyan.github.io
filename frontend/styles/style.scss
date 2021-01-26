@@ -76,6 +76,7 @@ body {
     }
     .section {
         margin-top: 358px;
+        padding-top: 100px;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -93,10 +94,14 @@ body {
             font-size: 24px;
             color: #202020;
         }
+        .iconify {
+            margin-top: 150px;
+        }
     }
     .section-skills {
         width: 400px;
         margin-top: 468px;
+        padding-top: 100px;
         h3 {
             font-family: Montserrat;
             font-style: normal;
@@ -112,6 +117,9 @@ body {
                 font-size: 24px;
                 color: #202020;
             }
+        }
+        .iconify {
+            margin-top: 150px;
         }
     }
     .section-contact {
@@ -139,9 +147,12 @@ body {
                 }
             }
         }
+        .iconify {
+            margin-top: 150px;
+        }
     }
     footer {
-        margin-top: 468px;
+        margin-top: 268px;
         text-align: center;
         justify-content: center;
         align-items: center;

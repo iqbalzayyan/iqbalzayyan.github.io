@@ -103,6 +103,7 @@ body header .brand .contact:hover {
 
 body .section {
   margin-top: 358px;
+  padding-top: 100px;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -128,9 +129,14 @@ body .section p {
   color: #202020;
 }
 
+body .section .iconify {
+  margin-top: 150px;
+}
+
 body .section-skills {
   width: 400px;
   margin-top: 468px;
+  padding-top: 100px;
 }
 
 body .section-skills h3 {
@@ -147,6 +153,10 @@ body .section-skills ul .text-items {
   font-weight: 500;
   font-size: 24px;
   color: #202020;
+}
+
+body .section-skills .iconify {
+  margin-top: 150px;
 }
 
 body .section-contact {
@@ -189,8 +199,12 @@ body .section-contact .icon .ic-5:hover {
   width: 45px;
 }
 
+body .section-contact .iconify {
+  margin-top: 150px;
+}
+
 body footer {
-  margin-top: 468px;
+  margin-top: 268px;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
