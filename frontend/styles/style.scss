@@ -100,32 +100,12 @@ body {
         }
         .icon {
             margin-top: 100px;
-            .ic-1 {
-                transition: 2s;
-                &:hover {
-                    width: 45px;
-                }
-            }
-            .ic-2 {
-                transition: 2s;
-                &:hover {
-                    width: 45px;
-                }
-            }
-            .ic-3 {
-                transition: 2s;
-                &:hover {
-                    width: 45px;
-                }
-            }
-            .ic-4 {
-                transition: 2s;
-                &:hover {
-                    width: 45px;
-                }
-            }
+            .ic-1,
+            .ic-2,
+            .ic-3,
+            .ic-4,
             .ic-5 {
-                transition: width 2s;
+                transition: 2s;
                 &:hover {
                     width: 45px;
                 }

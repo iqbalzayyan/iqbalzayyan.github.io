@@ -138,47 +138,19 @@ body .section-2 .icon {
   margin-top: 100px;
 }
 
-body .section-2 .icon .ic-1 {
-  -webkit-transition: 2s;
-  transition: 2s;
-}
-
-body .section-2 .icon .ic-1:hover {
-  width: 45px;
-}
-
-body .section-2 .icon .ic-2 {
-  -webkit-transition: 2s;
-  transition: 2s;
-}
-
-body .section-2 .icon .ic-2:hover {
-  width: 45px;
-}
-
-body .section-2 .icon .ic-3 {
-  -webkit-transition: 2s;
-  transition: 2s;
-}
-
-body .section-2 .icon .ic-3:hover {
-  width: 45px;
-}
-
-body .section-2 .icon .ic-4 {
-  -webkit-transition: 2s;
-  transition: 2s;
-}
-
-body .section-2 .icon .ic-4:hover {
-  width: 45px;
-}
-
+body .section-2 .icon .ic-1,
+body .section-2 .icon .ic-2,
+body .section-2 .icon .ic-3,
+body .section-2 .icon .ic-4,
 body .section-2 .icon .ic-5 {
-  -webkit-transition: width 2s;
-  transition: width 2s;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
+body .section-2 .icon .ic-1:hover,
+body .section-2 .icon .ic-2:hover,
+body .section-2 .icon .ic-3:hover,
+body .section-2 .icon .ic-4:hover,
 body .section-2 .icon .ic-5:hover {
   width: 45px;
 }
