@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    header {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        .brand {
+            position: relative;
+            justify-items: center;
+            align-items: center;
+            .main {
+                margin: 200px;
+                img {
+                    width: 200px;
+                    transition: 0.6s;
+                    &:hover {
+                        box-shadow: 0 0 30px #e6e6e6;
+                        border-radius: 300px;
+                    }
+                }
+                #image {
+                    transition-timing-function: ease-in-out;
+                }
+                h1 {
+                    font-size: 24px;
+                }
+            }
+            .skills {
+                position: absolute;
+                left: 47.5%;
+                top: 130px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                color: #202020;
+                text-decoration: none;
+            }
+            .about {
+                position: absolute;
+                left: 300px;
+                top: 320px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                color: #202020;
+                text-decoration: none;
+            }
+            .contact {
+                position: absolute;
+                right: 300px;
+                top: 320px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                color: #202020;
+                text-decoration: none;
+            }
+        }
+    }
+    .section {
+        margin-top: 358px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            color: #202020;
+        }
+        p {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            color: #202020;
+        }
+    }
+    .section-2 {
+        margin-top: 568px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            color: #202020;
+        }
+        .icon {
+            margin-top: 100px;
+            .ic-1 {
+                transition: 2s;
+                &:hover {
+                    width: 45px;
+                }
+            }
+            .ic-2 {
+                transition: 2s;
+                &:hover {
+                    width: 45px;
+                }
+            }
+            .ic-3 {
+                transition: 2s;
+                &:hover {
+                    width: 45px;
+                }
+            }
+            .ic-4 {
+                transition: 2s;
+                &:hover {
+                    width: 45px;
+                }
+            }
+            .ic-5 {
+                transition: width 2s;
+                &:hover {
+                    width: 45px;
+                }
+            }
+        }
+    }
+    footer {
+        margin-top: 468px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
