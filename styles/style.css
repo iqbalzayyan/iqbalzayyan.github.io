@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body header {
@@ -11,8 +13,6 @@ body header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
   text-align: center;
 }
 
@@ -24,32 +24,36 @@ body header .brand {
           align-items: center;
 }
 
-body header .brand .main {
-  margin: 200px;
+body header .brand .heading {
+  padding-top: 200px;
 }
 
-body header .brand .main img {
+body header .brand .heading img {
   width: 200px;
   -webkit-transition: 0.6s;
   transition: 0.6s;
 }
 
-body header .brand .main img:hover {
+body header .brand .heading img:hover {
   -webkit-box-shadow: 0 0 30px #e6e6e6;
           box-shadow: 0 0 30px #e6e6e6;
   border-radius: 300px;
 }
 
-body header .brand .main #image {
+body header .brand .heading #image {
   -webkit-transition-timing-function: ease-in-out;
           transition-timing-function: ease-in-out;
 }
 
-body header .brand .main h1 {
+body header .brand .heading h1 {
   font-size: 24px;
 }
 
-body header .brand .skills {
+body header .brand ul {
+  list-style: none;
+}
+
+body header .brand ul li .skills {
   position: absolute;
   left: 47.5%;
   top: 130px;
@@ -62,7 +66,7 @@ body header .brand .skills {
   text-decoration: none;
 }
 
-body header .brand .about {
+body header .brand ul li .about {
   position: absolute;
   left: 300px;
   top: 320px;
@@ -75,7 +79,7 @@ body header .brand .about {
   text-decoration: none;
 }
 
-body header .brand .contact {
+body header .brand ul li .contact {
   position: absolute;
   right: 300px;
   top: 320px;
@@ -88,16 +92,16 @@ body header .brand .contact {
   text-decoration: none;
 }
 
-body header .brand .skills,
-body header .brand .about,
-body header .brand .contact {
+body header .brand ul li .skills,
+body header .brand ul li .about,
+body header .brand ul li .contact {
   -webkit-transition: 0.8s;
   transition: 0.8s;
 }
 
-body header .brand .skills:hover,
-body header .brand .about:hover,
-body header .brand .contact:hover {
+body header .brand ul li .skills:hover,
+body header .brand ul li .about:hover,
+body header .brand ul li .contact:hover {
   text-shadow: 0 0 20px #919191;
 }
 
@@ -212,5 +216,88 @@ body footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  body {
+    background-color: #e2e8f1;
+    width: 100%;
+  }
+  body header {
+    width: 100%;
+    height: auto;
+  }
+  body header .heading {
+    width: 100%;
+    margin-top: -150px;
+  }
+  body header .heading #image {
+    width: 120px !important;
+  }
+  body header ul {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin-top: 50px;
+  }
+  body header ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body header ul li .skills,
+  body header ul li .about,
+  body header ul li .contact {
+    position: relative !important;
+    width: 90px;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    font-size: 18px !important;
+    padding-top: 20px;
+  }
+  body .section h1 {
+    font-size: 24px;
+  }
+  body .section p {
+    font-size: 18px;
+  }
+  body .section .iconify {
+    margin-top: -10px;
+  }
+  body .section-skills {
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  body .section-skills k h3 {
+    font-size: 24px;
+  }
+  body .section-skills ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  body .section-skills ul .text-items {
+    width: auto;
+    font-size: 18px;
+  }
+  body .section-skills .iconify {
+    margin-top: 40px;
+  }
+  body .section-contact h1 {
+    font-size: 24px;
+  }
+  body .section-contact .icon img {
+    width: 25px;
+  }
+  body .section-contact .iconify {
+    margin-top: 90px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
