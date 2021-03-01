@@ -268,7 +268,7 @@
   padding-top: 60px;
 }
 
-.section-portfolio .project-portfolio .portfolio-item {
+.section-portfolio .project-portfolio a.portfolio-item {
   border-radius: 20px;
   text-align: center;
   padding: 252px 287px 252px;
@@ -278,7 +278,7 @@
   transition: 1s ease;
 }
 
-.section-portfolio .project-portfolio .portfolio-item:hover {
+.section-portfolio .project-portfolio a.portfolio-item:hover {
   -webkit-transform: translateX(50%);
           transform: translateX(50%);
 }
