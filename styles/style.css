@@ -272,6 +272,8 @@
   border-radius: 20px;
   text-align: center;
   padding: 252px 287px 252px;
+  text-decoration: none;
+  color: #fff;
   -webkit-transition: 1s ease;
   transition: 1s ease;
 }
