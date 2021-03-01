@@ -159,6 +159,26 @@
                     }
                 }
             }
+            p {
+                position: absolute;
+                position: fixed;
+                right: 0;
+                top: 550px;
+                z-index: -1;
+                opacity: 0;
+                animation: text1 20s ease forwards;
+                animation-iteration-count: infinite;
+                @keyframes text1 {
+                    0% {
+                        opacity: 1;
+                        transform: translateX(130%);
+                    }
+                    100% {
+                        opacity: 1;
+                        transform: translateX(-240%);
+                    }
+                }
+            }
         }
     }
     
@@ -178,11 +198,10 @@
             align-content: center;
             padding-top: 60px;
             a.portfolio-item {
+                border: none;
                 border-radius: 20px;
                 text-align: center;
-                padding: 252px 287px 252px;
-                text-decoration: none;
-                color: #fff;
+                padding: 10px 50px;
                 transition: 1s ease;
                 &:hover {
                     transform: translateX(50%);
@@ -220,7 +239,7 @@
             opacity: 0;
             transform: translateX(0);
             transition: all 0.8s ease;
-            transition-delay: 0.2s;
+            transition-delay: 0.4s;
             .skill-items {
                 text-align: center;
                 h5 {

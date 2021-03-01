@@ -242,6 +242,45 @@
   }
 }
 
+.grid-container-header .header-logo p {
+  position: absolute;
+  position: fixed;
+  right: 0;
+  top: 550px;
+  z-index: -1;
+  opacity: 0;
+  -webkit-animation: text1 20s ease forwards;
+          animation: text1 20s ease forwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes text1 {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(130%);
+            transform: translateX(130%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(-240%);
+            transform: translateX(-240%);
+  }
+}
+
+@keyframes text1 {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(130%);
+            transform: translateX(130%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(-240%);
+            transform: translateX(-240%);
+  }
+}
+
 .section-portfolio {
   margin-top: 100px;
   padding-top: 60px;
@@ -269,11 +308,10 @@
 }
 
 .section-portfolio .project-portfolio a.portfolio-item {
+  border: none;
   border-radius: 20px;
   text-align: center;
-  padding: 252px 287px 252px;
-  text-decoration: none;
-  color: #fff;
+  padding: 10px 50px;
   -webkit-transition: 1s ease;
   transition: 1s ease;
 }
@@ -326,8 +364,8 @@
           transform: translateX(0);
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
-  -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
 }
 
 .section-skills .skill-content .skill-items {
