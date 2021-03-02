@@ -82,12 +82,12 @@
   grid-gap: 10px;
 }
 
-.grid-container-header .header-profile {
+.header-profile {
   margin: 0 auto;
   padding-top: 80px;
 }
 
-.grid-container-header .header-profile h1 {
+.header-profile h1 {
   font-size: 96px;
   font-weight: 600;
   opacity: 0;
@@ -123,7 +123,7 @@
   }
 }
 
-.grid-container-header .header-profile h2 {
+.header-profile h2 {
   font-size: 48px;
   opacity: 0;
   -webkit-animation: caption2 1s ease forwards;
@@ -132,7 +132,7 @@
           animation-delay: 0.6s;
 }
 
-.grid-container-header .header-profile h2 #strong-text {
+.header-profile h2 #strong-text {
   font-weight: 600;
 }
 
@@ -162,11 +162,11 @@
   }
 }
 
-.grid-container-header .header-logo {
+.header-logo {
   position: relative;
 }
 
-.grid-container-header .header-logo img {
+.header-logo img {
   position: absolute;
   right: 0;
   top: 0;
@@ -203,7 +203,7 @@
   }
 }
 
-.grid-container-header .header-logo .imgFrontEndDev {
+.header-logo .imgFrontEndDev {
   position: absolute;
   position: fixed;
   right: 0;
@@ -242,7 +242,7 @@
   }
 }
 
-.grid-container-header .header-logo p {
+.header-logo p {
   position: absolute;
   position: fixed;
   right: 0;
@@ -291,7 +291,7 @@
   font-weight: 500;
 }
 
-.section-portfolio .project-portfolio {
+.project-portfolio {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50%;
@@ -307,7 +307,7 @@
   padding-top: 60px;
 }
 
-.section-portfolio .project-portfolio a.portfolio-item {
+a {
   border: none;
   border-radius: 20px;
   text-align: center;
@@ -316,20 +316,20 @@
   transition: 1s ease;
 }
 
-.section-portfolio .project-portfolio a.portfolio-item:hover {
+a:hover {
   -webkit-transform: translateX(50%);
           transform: translateX(50%);
 }
 
-.section-portfolio .project-portfolio .bg-red {
+.bg-red {
   background-color: #DD8787;
 }
 
-.section-portfolio .project-portfolio .bg-orange {
+.bg-orange {
   background-color: #DDA687;
 }
 
-.section-portfolio .project-portfolio .bg-blue {
+.bg-blue {
   background-color: #87C3DD;
 }
 
@@ -344,7 +344,7 @@
   font-weight: 500;
 }
 
-.section-skills .skill-content {
+.skill-content {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto;
@@ -368,20 +368,20 @@
           transition-delay: 0.4s;
 }
 
-.section-skills .skill-content .skill-items {
+.skill-content .skill-items {
   text-align: center;
 }
 
-.section-skills .skill-content .skill-items h5 {
+.skill-content .skill-items h5 {
   font-size: 36px;
   font-weight: 400;
 }
 
-.section-skills .skill-content .skill-items img {
+.skill-content .skill-items img {
   padding-top: 16px;
 }
 
-.section-skills .skill-content .skill-items .skill-html {
+.skill-content .skill-items .skill-html {
   margin-left: auto;
   margin-right: auto;
   margin-top: 36px;
@@ -391,7 +391,7 @@
   border-radius: 0 0 6px 6px;
 }
 
-.section-skills .skill-content .skill-items .skill-css {
+.skill-content .skill-items .skill-css {
   margin-left: auto;
   margin-right: auto;
   margin-top: 36px;
@@ -401,7 +401,7 @@
   border-radius: 0 0 6px 6px;
 }
 
-.section-skills .skill-content .skill-items .skill-javascript {
+.skill-content .skill-items .skill-javascript {
   margin-left: auto;
   margin-right: auto;
   margin-top: 36px;
@@ -411,7 +411,7 @@
   border-radius: 0 0 6px 6px;
 }
 
-.section-skills .skill-content .skill-items .skill-design {
+.skill-content .skill-items .skill-design {
   margin-left: auto;
   margin-right: auto;
   margin-top: 36px;
@@ -421,7 +421,7 @@
   border-radius: 0 0 6px 6px;
 }
 
-.section-skills .active {
+.active {
   opacity: 1;
   -webkit-transform: translateY(20%);
           transform: translateY(20%);
@@ -437,7 +437,7 @@
   font-weight: 500;
 }
 
-.section-contact .contact-content {
+.contact-content {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto auto;
